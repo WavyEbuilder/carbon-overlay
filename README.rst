@@ -4,6 +4,22 @@ Carbon Overlay
 
 Gentoo Linux overlay.
 
+Quick Start
+-----------
+
+.. code-block:: bash
+
+   mkdir -p /etc/portage/repos.conf
+
+   cat << EOF > /etc/portage/repos.conf/carbon.conf
+   [carbon]
+   location = /var/db/repos/carbon
+   sync-type = git
+   sync-uri = https://github.com/WavyEbuilder/carbon-overlay.git
+   EOF
+
+   emaint sync -r carbon
+
 Licence
 -------
 
