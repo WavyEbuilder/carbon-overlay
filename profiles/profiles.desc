@@ -1,4 +1,2 @@
 amd64 hardened-nomultilib-systemd-plasma stable
 amd64 hardened-nomultilib-selinux-systemd-plasma stable
-amd64 hardened-llvm-selinux-systemd-plasma stable
-amd64 hardened-llvm-systemd-plasma stable

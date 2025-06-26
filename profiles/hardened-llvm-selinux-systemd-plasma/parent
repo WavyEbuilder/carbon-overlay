@@ -1,4 +1,0 @@
-gentoo:default/linux/amd64/23.0/llvm/systemd
-gentoo:features/hardened
-gentoo:features/selinux
-gentoo:targets/desktop/plasma
