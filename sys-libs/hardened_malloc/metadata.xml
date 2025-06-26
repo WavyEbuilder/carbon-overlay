@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>nvraxn@gmail.com</email>
+		<name>Rahul Sandhu</name>
+	</maintainer>
+	<use>
+		<flag name="light">Also build the more performant but less secure light variant</flag>
+		<flag name="seal-metadata">Use Memory Protection Keys to disable access to all writable allocator state outside of the memory allocator code</flag>
+	</use>
+	<upstream>
+		<remote-id type="github">grapheneos/hardened_malloc</remote-id>
+	</upstream>
+</pkgmetadata>
